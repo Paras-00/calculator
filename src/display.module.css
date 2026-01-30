@@ -1,0 +1,24 @@
+.display {
+  border: 3px solid black;
+  width: 85%;
+  margin: 20px auto;
+  font-size: 42px;
+  background: linear-gradient(90deg, #0026ff, aqua, white);
+  border-radius: 8px;
+  padding: 8px;
+  outline: none;
+  text-align: right;
+  color: black;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+  text-shadow: 1px 1px 2px white;
+  animation: glow 2.5s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 8px cyan;
+  }
+  100% {
+    box-shadow: 0 0 20px deepskyblue;
+  }
+}

@@ -1,0 +1,13 @@
+.Calculator {
+  border: 4px groove black;
+  margin : 100px;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  border-radius: 5px;
+  background: linear-gradient(black,red,white);
+  
+}
+
+
+
